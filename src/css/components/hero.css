@@ -1,0 +1,40 @@
+.hero {
+  padding: var(--space5x) var(--space3x) var(--space4x);
+}
+
+.hero--home {
+  background-color: var(--primary);
+}
+
+.hero__title,
+.hero__chapo {
+  border-bottom: 1px solid;
+  padding-bottom: var(--space3x);
+}
+
+.hero__title--home {
+  font-size: 3.3rem;
+  font-family: var(--font-serif);
+  font-weight: normal;
+}
+
+.hero__chapo {
+  font-size: var(--fs-xl);
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.hero__mail {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-decoration: none;
+  color: var(--black);
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+
+.hero__icon-mail {
+  display: block;
+  width: 28px;
+}

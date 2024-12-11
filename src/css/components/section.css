@@ -1,0 +1,4 @@
+.section {
+    padding-left: var(--space3x);
+    padding-right: var(--space3x);
+}

@@ -1,0 +1,10 @@
+.footer {
+  background-color: var(--gray-800);
+  color: var(--white);
+  padding: var(--space3x);
+  font-size: var(--fs-s);
+}
+
+.footer__copyright {
+  color: var(--gray-600);
+}
