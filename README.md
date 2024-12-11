@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : goerig
+- PRÉNOM : florian
+- GROUPE : MMI 1 B1
 - URL du site :
-- URL FIGMA :
+- URL FIGMA :https://www.figma.com/proto/uBqE7yo0fVOAKncxcf2PgV/SAE-103?node-id=1-3&t=F7pJeojhq0wbphYJ-1
 
 ## Sujet
 
