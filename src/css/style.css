@@ -30,7 +30,7 @@ Soyez attentifs à l'ordre d'import :
 /* Components */
 @import "components/menu.css";
 @import "components/hero.css";
-@import "components/section.css";
+@import "components/a_propos.css";
 @import "components/intro.css";
 @import "components/work.css";
 @import "components/stats.css";
@@ -38,3 +38,5 @@ Soyez attentifs à l'ordre d'import :
 @import "components/event.css";
 @import "components/button.css";
 @import "components/form.css";
+@import "components/programmation.css";
+@import "components/accueil.css";

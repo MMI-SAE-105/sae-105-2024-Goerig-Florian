@@ -10,7 +10,10 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header--page">
+        <div>
+            <a href="/index.html"><img class="page__logo" src="/assets/icons/LOGO.svg" alt="logo"></a>
+        </div>
         <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
             <span class="menu-btn__bar" aria-hidden="true"></span>
         </button>
@@ -30,150 +33,166 @@
                 </li>
             </ul>
         </nav>
-        <img class="header__logo" src="/assets/icons/LOGO.svg" alt="logo">
-        <img class="header__menu" src="/menu.svg" alt="menu">
-        <p class="header__edition">1ère édition</p>
-        <p class="header__date">11-13 juillet 2025</p>
     </header>
-    <div class="main-title">
-        <h1 class="main-title__text">PROGRAMMATION</h1>
-        <img class="main-title__image" src="/assets/img/calendrier.webp" alt="immage d'un calendrier en style animé">
-    </div>
-    <section class="program">
-        <div class="program__day">
-            <img class="program__icon" src="/assets/icons/Programme.svg" alt="icone calendrier">
-            <h2 class="program__day-title">Jour 1 : Vendredi 11 juillet 2025</h2>
+    <main>
+        <div class="hero">
+            <p class="hero__edition">1ère édition</p>
+            <p class="hero__date">11-13 juillet 2025</p>
         </div>
-        <div class="program__event">
-            <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
-            <h2 class="program__event-time">14H00: ouverture du festival</h2>
+        <div class="main-title">
+            <h1 class="main-title__text">PROGRAMMATION</h1>
+            <img class="main-title__image" src="/assets/img/calendrier.webp"
+                alt="immage d'un calendrier en style animé">
         </div>
-        <div class="program__location">
-            <img class="program__icon" src="/assets/icons/lieu.svg" alt="icone lieu">
-            <p class="program__location-name">l’AtraXion Andelnans</p>
-            <p class="program__location-description">Démarrez le festival en beauté avec une soirée d’ouverture en plein
-                air. Discours des organisateurs et présentation du programme.</p>
-        </div>
-        <div class="program__event">
-            <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
-            <h2 class="program__event-time">16h00 : Film d’ouverture : Your name</h2>
-        </div>
-        <p class="program__description">Un classique moderne de l'animation japonaise qui explore les thèmes de l'amour
-            et du destin. (1h52) Film d’animation japonais de Makoto Shinkai sorti en 2016. L’histoire de deux
-            adolescents qui échangent mystérieusement de corps. Un film d’animation japonais qui a marqué les esprits.
-        </p>
-        <div class="program__event">
-            <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
-            <h2 class="program__event-time">17h30 : Making-of – "Les coulisses de l'animation japonaise"</h2>
-        </div>
-        <p class="program__description">Découvrez le processus créatif derrière les plus grands films d'animation avec
-            une diffusion exclusive des making-of des studios japonais.</p>
-        <div class="program__event">
-            <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
-            <h2 class="program__event-time">19h00 : Rencontre & Dédicaces</h2>
-        </div>
-        <p class="program__description">Session de questions-réponses et dédicaces avec un réalisateur d'animation
-            invité.</p>
-        <div class="program__event">
-            <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
-            <h2 class="program__event-time">21h00 : Projection en plein air – "Mon Voisin Totoro"</h2>
-        </div>
-        <p class="program__description">Une projection en plein air de ce chef-d'œuvre du studio Ghibli pour clore la
-            première journée dans un cadre magique. (1h28)</p>
-    </section>
-    <img class="program__image" src="/assets/img/totoro_filmographie.webp" alt="affiche film Totoro">
-    <section class="program">
-        <div class="program__day">
-            <img class="program__icon" src="/assets/icons/Programme.svg" alt="icone calendrier">
-            <h1 class="program__day-title">Jour 2 : Samedi 12 juillet 2025</h1>
-        </div>
-        <div class="program__event">
-            <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
-            <h2 class="program__event-time">10H00 : Atelier – "Initiation à l'animation japonaise"</h2>
-        </div>
-        <p class="program__description">Apprenez les bases de l'animation japonaise avec des animateurs professionnels.
-        </p>
-        <div class="program__location">
-            <img class="program__icon" src="/assets/icons/lieu.svg" alt="icone lieu">
-            <p class="program__location-name">l’AtraXion Andelnans</p>
+        <section class="program">
+            <div class="program__day">
+                <img class="program__icon" src="/assets/icons/Programme.svg" alt="icone calendrier">
+                <h1 class="program__day-title">Jour 1 : Vendredi 11 juillet 2025</h1>
+            </div>
             <div class="program__event">
                 <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
-                <h2 class="program__event-time">12h30 : Atelier – "Initiation à l'animation japonaise"</h2>
+                <h2 class="program__event-time">14H00: ouverture du festival</h2>
+            </div>
+            <div class="program__location">
+                <img class="program__icon" src="/assets/icons/lieu.svg" alt="icone lieu">
+                <p class="program__location-name">l’AtraXion Andelnans</p>
+                <p class="program__location-description">Démarrez le festival en beauté avec une soirée d’ouverture en
+                    plein
+                    air. Discours des organisateurs et présentation du programme.</p>
+            </div>
+            <div class="program__event">
+                <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
+                <h2 class="program__event-time">16h00 : Film d’ouverture : Your name</h2>
+            </div>
+            <p class="program__description">Un classique moderne de l'animation japonaise qui explore les thèmes de
+                l'amour
+                et du destin. (1h52) Film d’animation japonais de Makoto Shinkai sorti en 2016. L’histoire de deux
+                adolescents qui échangent mystérieusement de corps. Un film d’animation japonais qui a marqué les
+                esprits.
+            </p>
+            <div class="program__event">
+                <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
+                <h2 class="program__event-time">17h30 : Making-of – "Les coulisses de l'animation japonaise"</h2>
+            </div>
+            <p class="program__description">Découvrez le processus créatif derrière les plus grands films d'animation
+                avec
+                une diffusion exclusive des making-of des studios japonais.</p>
+            <div class="program__event">
+                <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
+                <h2 class="program__event-time">19h00 : Rencontre & Dédicaces</h2>
+            </div>
+            <p class="program__description">Session de questions-réponses et dédicaces avec un réalisateur d'animation
+                invité.</p>
+            <div class="program__event">
+                <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
+                <h2 class="program__event-time">21h00 : Projection en plein air – "Mon Voisin Totoro"</h2>
+            </div>
+            <p class="program__description">Une projection en plein air de ce chef-d'œuvre du studio Ghibli pour clore
+                la
+                première journée dans un cadre magique. (1h28)</p>
+        </section>
+        <img class="program__image" src="/assets/img/totoro_filmographie.webp" alt="affiche film Totoro">
+        <section class="program">
+            <div class="program__day">
+                <img class="program__icon" src="/assets/icons/Programme.svg" alt="icone calendrier">
+                <h1 class="program__day-title">Jour 2 : Samedi 12 juillet 2025</h1>
+            </div>
+            <div class="program__event">
+                <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
+                <h2 class="program__event-time">10H00 : Atelier – "Initiation à l'animation japonaise"</h2>
             </div>
             <p class="program__description">Apprenez les bases de l'animation japonaise avec des animateurs
-                professionnels.</p>
-        </div>
-        <div class="program__event"></div>
-        <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
-        <h2 class="program__event-time">14H00 : Projection – "Film en avant-première"Film : Belle (Ryû to Sobakasu no
-            Hime)</h2>
+                professionnels.
+            </p>
+            <div class="program__location">
+                <img class="program__icon" src="/assets/icons/lieu.svg" alt="icone lieu">
+                <p class="program__location-name">l’AtraXion Andelnans</p>
+                <div class="program__event">
+                    <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
+                    <h2 class="program__event-time">12h30 : Atelier – "Initiation à l'animation japonaise"</h2>
+                </div>
+                <p class="program__description">Apprenez les bases de l'animation japonaise avec des animateurs
+                    professionnels.</p>
+            </div>
+            <div class="program__event"></div>
+            <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
+            <h2 class="program__event-time">14H00 : Projection – "Film en avant-première"Film : Belle (Ryû to Sobakasu
+                no
+                Hime)</h2>
 
-        <p class="program__description">Plongée dans l’univers visuel époustouflant de Mamoru Hosoda. (2h01)</p>
-        <div class="program__event">
-            <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
-            <h2 class="program__event-time">16h30 : Discussion – "L’avenir de l’animation japonaise"</h2>
-        </div>
-        <p class="program__description">Table ronde avec des professionnels de l'animation sur les nouvelles tendances
-            et les perspectives futures du genre.</p>
-        <div class="program__event">
-            <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
-            <h2 class="program__event-time">18h30 : Projection – "Film spécial"Film : Akira</h2>
-        </div>
-        <p class="program__description">Un incontournable de la science-fiction et un film culte qui continue
-            d’influencer les créateurs du monde entier.(2h04).</p>
-        <div class="program__event">
-            <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
-            <h2 class="program__event-time">21h30 : Projection en plein air – "Le Château dans le ciel"</h2>
-        </div>
-        <p class="program__description">Une nouvelle projection en plein air avec ce film légendaire de Hayao Miyazaki.
-            (1h59)</p>
-    </section>
-    <img class="program__image" src="/assets/img/chateau.webp" alt="affiche film Totoro">
-    <section class="program">
-        <div class="program__day">
-            <img class="program__icon" src="/assets/icons/Programme.svg" alt="icone calendrier">
-            <h1 class="program__day-title">Jour 3 : Dimanche 13 juillet 2025</h1>
-        </div>
-        <div class="program__event">
-            <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
-            <h2 class="program__event-time">10H30: Atelier – "Les métiers de l'animation japonaise"</h2>
-        </div>
-        <p class="program__description">Explorez les différents métiers de l'animation, du storyboard à la direction
-            artistique.</p>
-        <div class="program__location">
-            <img class="program__icon" src="/assets/icons/lieu.svg" alt="icone lieu">
-            <p class="program__location-name">l’AtraXion Andelnans</p>
+            <p class="program__description">Plongée dans l’univers visuel époustouflant de Mamoru Hosoda. (2h01)</p>
             <div class="program__event">
                 <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
-                <h2 class="program__event-time">12h30 : Pause déjeuner & Rencontre créateurs</h2>
+                <h2 class="program__event-time">16h30 : Discussion – "L’avenir de l’animation japonaise"</h2>
             </div>
-            <p class="program__description">Découverte des créateurs locaux et stands dédiés à la culture japonaise.</p>
-        </div>
-        <div class="program__event">
+            <p class="program__description">Table ronde avec des professionnels de l'animation sur les nouvelles
+                tendances
+                et les perspectives futures du genre.</p>
+            <div class="program__event">
+                <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
+                <h2 class="program__event-time">18h30 : Projection – "Film spécial"Film : Akira</h2>
+            </div>
+            <p class="program__description">Un incontournable de la science-fiction et un film culte qui continue
+                d’influencer les créateurs du monde entier.(2h04).</p>
+            <div class="program__event">
+                <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
+                <h2 class="program__event-time">21h30 : Projection en plein air – "Le Château dans le ciel"</h2>
+            </div>
+            <p class="program__description">Une nouvelle projection en plein air avec ce film légendaire de Hayao
+                Miyazaki.
+                (1h59)</p>
+        </section>
+        <img class="program__image" src="/assets/img/chateau.webp" alt="affiche film Totoro">
+        <section class="program">
+            <div class="program__day">
+                <img class="program__icon" src="/assets/icons/Programme.svg" alt="icone calendrier">
+                <h1 class="program__day-title">Jour 3 : Dimanche 13 juillet 2025</h1>
+            </div>
+            <div class="program__event">
+                <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
+                <h2 class="program__event-time">10H30: Atelier – "Les métiers de l'animation japonaise"</h2>
+            </div>
+            <p class="program__description">Explorez les différents métiers de l'animation, du storyboard à la direction
+                artistique.</p>
+            <div class="program__location">
+                <img class="program__icon" src="/assets/icons/lieu.svg" alt="icone lieu">
+                <p class="program__location-name">l’AtraXion Andelnans</p>
+                <div class="program__event">
+                    <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
+                    <h2 class="program__event-time">12h30 : Pause déjeuner & Rencontre créateurs</h2>
+                </div>
+                <p class="program__description">Découverte des créateurs locaux et stands dédiés à la culture japonaise.
+                </p>
+            </div>
+            <div class="program__event">
+                <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
+                <h2 class="program__event-time">14H00 : Projection – "Film en exclusivité"</h2>
+            </div>
+            <p class="program__description">Film : Demon Slayer – Le train de l’infini Un film à succès qui a battu tous
+                les
+                records au box-office japonais. (1h57)</p>
+            <div class="program__event">
+                <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
+                <h2 class="program__event-time">16h30 : Discussion – "L’avenir de l’animation japonaise"</h2>
+            </div>
+            <p class="program__description">Table ronde avec des professionnels de l'animation sur les nouvelles
+                tendances
+                et les perspectives futures du genre.</p>
+            <div class="program__event"></div>
             <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
-            <h2 class="program__event-time">14H00 : Projection – "Film en exclusivité"</h2>
-        </div>
-        <p class="program__description">Film : Demon Slayer – Le train de l’infini Un film à succès qui a battu tous les
-            records au box-office japonais. (1h57)</p>
-        <div class="program__event">
+            <h2 class="program__event-time">18h30 : Projection – "Film spécial"Film : Akira</h2>
+            <p class="program__description">Un incontournable de la science-fiction et un film culte qui continue
+                d’influencer les créateurs du monde entier.(2h04).</p>
+            <div class="program__event"></div>
             <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
-            <h2 class="program__event-time">16h30 : Discussion – "L’avenir de l’animation japonaise"</h2>
-        </div>
-        <p class="program__description">Table ronde avec des professionnels de l'animation sur les nouvelles tendances
-            et les perspectives futures du genre.</p>
-        <div class="program__event"></div>
-        <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
-        <h2 class="program__event-time">18h30 : Projection – "Film spécial"Film : Akira</h2>
-        <p class="program__description">Un incontournable de la science-fiction et un film culte qui continue
-            d’influencer les créateurs du monde entier.(2h04).</p>
-        <div class="program__event"></div>
-        <img class="program__icon" src="/assets/icons/horloge.svg" alt="icone horloge">
-        <h2 class="program__event-time">21h30 : Projection en plein air – "Le Château dans le ciel"</h2>
+            <h2 class="program__event-time">21h30 : Projection en plein air – "Le Château dans le ciel"</h2>
 
-        <p class="program__description">Une nouvelle projection en plein air avec ce film légendaire de Hayao Miyazaki.
-            (1h59)</p>
-    </section>
-    <img class="program__image" src="/assets/img/demons.webp" alt="affiche film Démons Slayer">
+            <p class="program__description">Une nouvelle projection en plein air avec ce film légendaire de Hayao
+                Miyazaki.
+                (1h59)</p>
+        </section>
+        <img class="program__image" src="/assets/img/demons.webp" alt="affiche film Démons Slayer">
+    </main>
     <footer class="gradient">
         <section class="footer_nav">
             <h4>Navigation</h4>

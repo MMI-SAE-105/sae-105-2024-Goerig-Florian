@@ -8,14 +8,38 @@
     <link rel="stylesheet" href="src/css/style.css" class="page__link">
     <script type="module" src="src/js/script.js"></script>
 </head>
+<header class="header--page">
+    <div>
+        <a href="/index.html"><img class="page__logo" src="/assets/icons/LOGO.svg" alt="logo"></a>
+    </div>
+    <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+        <span class="menu-btn__bar" aria-hidden="true"></span>
+    </button>
+    <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+        <ul class="menu__list list-unstyled">
+            <li class="menu__item">
+                <a class="menu__link" href="a_propos.html">A propos</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="programmation.html">Programmation</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="filmographie.html">filmographie</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="team.html">Team</a>
+            </li>
+        </ul>
+    </nav>
+</header>
 
 <body class="page__body">
     <div class="page__header"></div>
+<div class="hero">
     <section class="page__section page__section--welcome">
-        <img class="page__logo" src="/assets/icons/LOGO.svg" alt="logo">
-        <img class="page__image page__image--welcome" src="/assets/img/Acccueil.webp"
+        </div>
+        <img class="page__image page__image--welcome" src="/assets/img/festival.webp"
             alt="image representant des décord du japon en style animé">
-        <img class="page__menu-logo" src="/assets/icons/Menu.svg" alt="logo">
         <p class="page__date">11-13 juillet 2025</p>
         <p class="page__location">ANDELNANS-BELFORT</p>
     </section>
@@ -32,6 +56,7 @@
                 disponibles).</li>
         </ul>
     </section>
+
     <section class="page__section page__section--location">
         <h2 class="page__section-title">LIEU :</h2>
         <p class="page__text">A l’Atraxion, à Andelnans
@@ -102,7 +127,8 @@
         </section>
         <section>
             <h4>Mentions légales</h4>
-            <p>Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au département MMI Montbéliard (25)</p>
+            <p>Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au département MMI Montbéliard (25)
+            </p>
         </section>
         <section class="footer_socials">
             <ul>
