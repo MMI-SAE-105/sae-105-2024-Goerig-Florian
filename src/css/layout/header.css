@@ -1,11 +1,13 @@
-header div {
+.header {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: var(--space2x) var(--space3x);
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 20px 15px;
+  justify-content: space-between;
 }
 
-header div > button {
-  filter: invert(1);
-  padding: 5px;
+.header__logo {
+  display: block;
 }

@@ -5,16 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title class="page__title">Document</title>
     <link class="page__link" rel="stylesheet" href="src/css/style.css">
+    <script type="module" src="src/js/script.js"></script>
+
 </head>
 <body class="page__body">
     <header class="gradient">
         <div>
             <a href="/index.html"><img class="page__logo" src="/assets/icons/LOGO.svg" alt="logo"></a>
-            <button aria-label="Menu burger"><img class="page__menu" src="/assets/icons/Menu.svg" alt="menu"></button>
-        </div>
-        <p class="page__edition">1ère édition</p>
-        <p class="page__date">11-13 juillet 2025</p>
+            <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                <span class="menu-btn__bar" aria-hidden="true"></span>
+            </button>
+            <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+                <ul class="menu__list list-unstyled">
+                    <li class="menu__item">
+                        <a class="menu__link" href="a_propos.html">A propos</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="programmation.html">Programmation</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="filmographie.html">filmographie</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="team.html">Team</a>
+                    </li>
+                </ul>
+        >
     </header>
+    
     <img class="page__image" src="/assets/img/image17.webp" alt="image de Hayao Miyazak version animé">
     <h3 class="page__description">Pour notre prémière édition nous avons souhaité faire un hommage à la filmographie légendaire de Hayao Miyazaki, un maître de l'animation japonaise. À travers ces œuvres emblématiques, plongez dans des mondes magiques et fascinants, où chaque film raconte une histoire inoubliable. De Mon Voisin Totoro à Le Voyage de Chihiro, explorez l'univers créatif du co-fondateur du Studio Ghibli.</h3>
     <section class="page__section">
