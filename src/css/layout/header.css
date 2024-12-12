@@ -1,13 +1,11 @@
-.header {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  padding: var(--space2x) var(--space3x);
+header div {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
 }
 
-.header__logo {
-  display: block;
+header div > button {
+  filter: invert(1);
+  padding: 5px;
 }

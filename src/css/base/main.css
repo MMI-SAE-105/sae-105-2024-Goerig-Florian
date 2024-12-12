@@ -5,29 +5,48 @@
 }
 
 body {
-  font-family: var(--font-sans-serif);
-  font-size: var(--fs-s);
-  line-height: 1.6;
   background-color: var(--gray-white);
   font-weight: 300;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+main {
+padding: 0 20px;
 }
 
 h1,
 h2 {
   font-weight: normal;
   line-height: 1.1;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
 }
 
 h1 {
-  font-size: var(--fs-4xl);
+  font-size: 24px;
+  color: var(--green);
+  text-transform: uppercase;
+  
 }
 
 h2 {
-  font-size: var(--fs-2xl);
+  font-size: 20px;
+  color: #000;
 }
 
 h3 {
   line-height: 1.4;
+  color: var(black);
+}
+
+p {
+  font-family: 'Alexandria', sans-serif;
+  font-size: 16px;
+}
+
+.gradient {
+  background: radial-gradient(184.83% 194.44% at 105.85% 4.1%, rgba(95, 186, 254, 0.60) 46.89%, rgba(105, 211, 129, 0.50) 58.93%);
 }
 
 button,
