@@ -7,3 +7,14 @@ background: radial-gradient(184.83% 194.44% at 105.85% 4.1%, #98D3FF 46.89%, #BC
     {
         display: flex;
     }
+
+    .page__location
+    {
+        text-align: center;
+        background-color: white;
+    }
+    .page__date
+    {
+        text-align: center;
+        background-color: white;
+    }
