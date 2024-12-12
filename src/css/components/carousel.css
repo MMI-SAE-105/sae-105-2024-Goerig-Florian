@@ -1,0 +1,57 @@
+/* Limite la largeur maximale de l'image à 100% de son conteneur - https://developer.mozilla.org/fr/docs/Web/CSS/max-width */
+/* Ajuste la hauteur de l'image automatiquement pour conserver les proportions - https://developer.mozilla.org/fr/docs/Web/CSS/height */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mise en forme du carousel en CSS.
+Utiliser flex pour positionner les item du carousel les uns à coté des autres.
+La propriété "overflow-x" avec la valeur "scroll" permet rogner le contenu afin de tenir horizontalement dans la boîte de remplissage et d'ajouter un scroll horizontal si le contenu déborde.
+https://developer.mozilla.org/fr/docs/Web/CSS/overflow-x
+
+La propriété "scroll-snap-type" définit la force d'adhérence aux points d'accroche en cas de défilement d'un conteneur
+https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-type
+
+Les margin négatifs à gauche et à droite corresponde à l'éespace entre le navigateur et le début du contenu, de sorte que le carousel soit collé au bords de l'écran.
+
+*/
+
+/* Compléter la suite du code */
+.carousel__controls {
+  display: flex;/* Utilise flexbox pour aligner les éléments enfants - https://developer.mozilla.org/fr/docs/Web/CSS/display */
+  gap: 16px;/* Espace entre les éléments enfants 16px- https://developer.mozilla.org/fr/docs/Web/CSS/gap */
+  align-items: center;/* Aligne les éléments enfants au centre verticalement - https://developer.mozilla.org/fr/docs/Web/CSS/align-items */
+  justify-content: center;/* Centre les éléments enfants horizontalement - https://developer.mozilla.org/fr/docs/Web/CSS/justify-content */
+  margin: 16px 0;/* Marge de 16px en haut et en bas - https://developer.mozilla.org/fr/docs/Web/CSS/margin */
+}
+.carousel__button {
+  width: 50px;/* Largeur du bouton 50px - https://developer.mozilla.org/fr/docs/Web/CSS/width */
+  height: 50px;/* Hauteur du bouton 50px - https://developer.mozilla.org/fr/docs/Web/CSS/height */
+  display: flex;/* Utilise flexbox pour aligner le contenu du bouton - https://developer.mozilla.org/fr/docs/Web/CSS/display */
+  align-items: center;/* Aligne le contenu du bouton au centre verticalement - https://developer.mozilla.org/fr/docs/Web/CSS/align-items */
+  justify-content: center;/* Centre le contenu du bouton horizontalement - https://developer.mozilla.org/fr/docs/Web/CSS/justify-content */
+  border: 1px solid;/* Bordure solide de 1px - https://developer.mozilla.org/fr/docs/Web/CSS/border */
+  border-radius: 50%;/* Bordure arrondie pour faire un cercle - https://developer.mozilla.org/fr/docs/Web/CSS/border-radius */
+}
+.carousel__button--prev {
+transform: rotate(180deg);/* Fait pivoter le bouton de 180 degrés - https://developer.mozilla.org/fr/docs/Web/CSS/transform */
+}
+
+.carousel__container {
+  display: flex; /* Utilise flexbox pour aligner les éléments enfants - https://developer.mozilla.org/fr/docs/Web/CSS/display */
+  gap: 16px;/* Espace entre les éléments enfants 16px - https://developer.mozilla.org/fr/docs/Web/CSS/gap */
+  overflow: visible scroll ;/* Ajoute un défilement horizontal si le contenu déborde - https://developer.mozilla.org/fr/docs/Web/CSS/overflow */
+  margin-left: -24px ;/* Marge négative à gauche pour coller le carousel au bord de l'écran -24px - https://developer.mozilla.org/fr/docs/Web/CSS/margin */
+  margin-right: -24px;/* Marge négative à droite pour coller le carousel au bord de l'écran -24px - https://developer.mozilla.org/fr/docs/Web/CSS/margin */
+  scroll-snap-type: x mandatory;/* Définit le type de défilement pour accrocher les éléments - https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-type */
+}
+
+.carousel__item {
+  flex: 1 0 260px;/* L'élément prend 1 part de l'espace disponible, ne rétrécit pas, et a une largeur de base de 260px - https://developer.mozilla.org/fr/docs/Web/CSS/flex */
+  scroll-snap-align: center;/* Aligne l'élément au centre lors du défilement - https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-align */
+}
+
+.carousel__item img {
+  display: block;/* Affiche l'image comme un bloc - https://developer.mozilla.org/fr/docs/Web/CSS/display */
+}

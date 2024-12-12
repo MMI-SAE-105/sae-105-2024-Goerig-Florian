@@ -36,6 +36,8 @@ h2 {
 }
 
 h3 {
+  font-family: 'Alexandria', sans-serif;
+    font-size: 16px;
   line-height: 1.4;
   color: var(black);
 }
