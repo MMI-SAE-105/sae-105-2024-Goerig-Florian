@@ -21,3 +21,12 @@
     display: flex;
        
 }
+.program__event-time {
+    border-bottom: 2px solid black;
+    /* Épaisseur et couleur de la ligne */
+    padding-bottom: 10px;
+    /* Espacement entre le texte et la ligne */
+    margin-bottom: 20px;
+    /* Espacement entre le titre et l'élément suivant */
+    padding-left: 10px;
+}

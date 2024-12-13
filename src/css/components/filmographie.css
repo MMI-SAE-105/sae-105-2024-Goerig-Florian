@@ -1,6 +1,7 @@
 .page__figure
 {
 margin: 0;
+
 }
 
 .body__film
@@ -11,4 +12,5 @@ margin: 0;
 .page__description
 {
     background-color: radial-gradient(184.83% 194.44% at 105.85% 4.1%, #98D3FF 46.89%, #BCEAC6 58.93%);
+   text-align: left;
 }
