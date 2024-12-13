@@ -56,3 +56,4 @@ transform: rotate(180deg);/* Fait pivoter le bouton de 180 degrés - https://dev
 .carousel__item img {
   display: block;/* Affiche l'image comme un bloc - https://developer.mozilla.org/fr/docs/Web/CSS/display */
 }
+

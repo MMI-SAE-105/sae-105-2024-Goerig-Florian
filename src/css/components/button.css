@@ -1,0 +1,10 @@
+.button-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-family: "Alexandria";
+    background-color: var(--blue);
+    padding: 0.5rem;
+    gap: 0.5rem;
+}

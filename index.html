@@ -36,11 +36,11 @@
     <div class="main">
         <main>
             <section class="section"> 
-            <section class="page__section page__section--welcome">
+            <section class="page__section page__section--welcome container">
                 <img class="page__image page__image--welcome" src="/assets/img/Acccueil.webp"
                     alt="image representant des décord du japon en style animé">
                                <h1 class="page__title">Bienvenue chez animēshon !</h1>
-                <h2 class="page__subtitle">information</h2>
+                <h2 class="page__subtitle">Information</h2>
                 <p class="page__text">Ne manquez pas l'occasion de participer à la toute première édition du Festival du Film
                     d'Animation Japonaise, qui se
                     tiendra du 11 au 13 juillet 2025 à Belfort, à l'AtraXion. Profitez d'une expérience inédite avec des projections
@@ -53,8 +53,9 @@
                     ne pas manquer les moments forts de ce festival qui s’annonce inoubliable !</p>
                 <img class="page__image" src="/assets/img/festival.webp" alt="image d'un festival en style anime">
                 <div class="page__more-info"></div>
-                <img class="page__icon" src="/assets/icons/fleche2.svg" alt="fleche du bouton" style="width: 100px; height: auto;">
-                <p class="page__more-info-text">En savoir plus sur le festival</p>
+                <a href="autre_page.html" class="button-link">
+                    <img class="page__icon" src="/assets/icons/fleche 2.svg" alt="fleche du bouton">En savoir plus sur le fesival
+                </a>
             </section>
             <section class="page__section page__section--program">
                 <h2 class="page__subtitle">Programme</h2>
@@ -67,9 +68,9 @@
                     créativité et de partage !</p>
                 <div class="page__more-info"></div>
                 <img class="page__image" src="/assets/img/calendrier.webp" alt="image calendrier style anime">
-                <img class="page__icon" src="/assets/icons/fleche2.svg" alt="fleche du bouton">
-                <p class="page__more-info-text">En savoir plus sur le programme</p>
-            
+                <a href="programmation.html" class="button-link">
+                <img class="page__icon" src="/assets/icons/fleche 2.svg" alt="fleche du bouton">En savoir plus sur le programme
+            </a>
             </section>
             <section class="page__section page__section--tickets">
                 <h2 class="page__subtitle">billetterie</h2>
@@ -85,8 +86,9 @@
                 <img class="page__image" src="/assets/img/billetteries.webp"
                     alt="Deux personne s'embrassant devant un billet de cinéma géant en style animé">
                     
-                <img class="page__icon" src="/assets/icons/fleche 2.svg" alt="fleche du bouton">
-                <p class="page__more-info-text">Réserver votre billet</p>
+                <a href="autre_page.html" class="button-link">
+                    <img class="page__icon" src="/assets/icons/fleche 2.svg" alt="fleche du bouton"> Réserver votre billet !
+                </a>
             </section>
             <section class="page__section page__section--partners">
                 <h2 class="page__subtitle">Partenaires</h2>
@@ -134,4 +136,16 @@
         </section>
     </footer>
 </body>
+<script>
+const handleScroll = () => {
+    const header = document.querySelector('.header')
+    if (window.scrollY > 300) {
+        header.classList.add('gradient')
+    } else {
+        header.classList.remove('gradient')
+}
+}
+
+window.addEventListener('scroll', handleScroll)
+</script>
 </html>

@@ -2,16 +2,13 @@
     display: flex;
     flex-direction: column;
     background: radial-gradient(184.83% 194.44% at 105.85% 4.1%, #98D3FF 46.89%, #BCEAC6 58.93%);
+    padding: 0 20px;
 }
 
-.program__day {
+.program__day,
+.program__event,
+.program__location,
+.program__decription {
     display: flex;
 }
 
-.program__event {
-    display: flex;
-}
-
-.program__location {
-    display: flex;
-}
