@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Noto+Sans+JP:wght@100..900&display=swap');
 
 /* Vendors */
-@import "vendors/normalize.css";
+@import "/src/css/vendors/normalize.css";
 
 /* Utils */
 @import "utils/variables.css";

@@ -4,9 +4,10 @@
 <head class="page__head">
     <meta charset="UTF-8" class="page__meta">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" class="page__meta">
-    <title class="page__title">Document</title>
+    <title class="page__title">Festival du films d’animation japonais animēshon</title>
     <link rel="stylesheet" href="src/css/style.css" class="page__link">
     <script type="module" src="src/js/script.js"></script>
+    <link rel="icon" href="/assets/icons/LOGO.svg" type="image/svg+xml">
 </head>
 <header class="header--page">
     <div>
@@ -32,16 +33,21 @@
         </ul>
     </nav>
 </header>
-
+<main>  
 <body class="page__body">
     <div class="page__header"></div>
-<div class="hero">
-    <section class="page__section page__section--welcome">
-        </div>
-        <img class="page__image page__image--welcome" src="/assets/img/festival.webp"
-            alt="image representant des décord du japon en style animé">
-        <p class="page__date">11-13 juillet 2025</p>
-        <p class="page__location">ANDELNANS-BELFORT</p>
+    <div class="hero">
+        <section class="page__section page__section--welcome">
+    </div>
+    <img class="page__image page__image--welcome" src="/assets/img/festival.webp"
+        alt="image representant des décord du japon en style animé">
+    <div class="hero">
+        <p class="hero__edition">1ère édition</p>
+        <p class="hero__date">11-13 juillet 2025</p>
+    </div>
+    <div class="main-title">
+        <h1>à propos</h1>
+ </div>
     </section>
     <section class="page__section page__section--pricing">
         <h2 class="page__section-title">Tarif :</h2>
@@ -58,7 +64,8 @@
     </section>
 
     <section class="page__section page__section--location">
-        <img class="page__image page__image--atraxion" src="/assets/img/atraxion.webp" alt="image salle Atraxion en style animé">
+        <img class="page__image page__image--atraxion" src="/assets/img/atraxion.webp"
+            alt="image salle Atraxion en style animé">
         <h2 class="page__section-title">LIEU :</h2>
         <p class="page__text">A l’Atraxion, à Andelnans
             Adresse : Rue des Prés, 90400 Andelnans, France
@@ -99,63 +106,102 @@
         </ul>
     </section>
     <img src="/assets/img/question.webp" alt="image de questions">
-    <section class="page__section page__section--faq">
-        <h2 class="page__section-title">FAQ:</h2>
-        <ul class="page__list">
-            <li class="page__list-item page__list-item--faq">Quels types d'activités sont prévues ?
-                <p class="page__faq-answer">Nous proposerons des projections de films d'animation, des ateliers initiation à l’animation japonaise, un déjeuner et stand culture japonaise.</p>
-            </li>
-            <li class="page__list-item page__list-item--faq">Peut-on acheter des billets sur place ?
-                <p class="page__faq-answer">Oui, mais nous vous recommandons d’acheter vos billets en ligne pour garantir votre place.</p>
-            </li>
-            <li class="page__list-item page__list-item--faq">Puis-je venir déguisé ?
-                <p class="page__faq-answer">Absolument ! Nous encourageons les visiteurs à venir en cosplay.</p>
-            </li>
-            <li class="page__list-item page__list-item--faq">Y aura-t-il des stands de nourriture ?
-                <p class="page__faq-answer">Oui, plusieurs stands proposeront de la cuisine japonaise et internationale.</p>
-            </li>
-            <li class="page__list-item page__list-item--faq">Le site est-il accessible aux personnes à mobilité réduite ?
-                <p class="page__faq-answer">Oui, l’Atraxion est équipé pour accueillir les personnes à mobilité réduite.</p>
-            </li>
-            <li class="page__list-item page__list-item--faq">Les animaux sont-ils acceptés ?
-                <p class="page__faq-answer">Malheureusement, les animaux ne sont pas autorisés, sauf les chiens-guides.</p>
-            </li>
-            <li class="page__list-item page__list-item--faq">Comment puis-je participer en tant que bénévole ou exposant ?
-                <p class="page__faq-answer">Contactez-nous via la section "Contact" du site avec vos informations et votre demande.</p>
-            </li>
+    <h2 class="page__section-title"> FAQ:</h2>
+    <div class="accordeon">
+        <details open>
+            <summary>Quels types d'activités sont prévues ?
+            </summary>
+            <div class="texte">
+                <p class="page__faq-answer">Nous proposerons des projections de films d'animation, des ateliers
+                    initiation à l’animation japonaise, un déjeuner et stand culture japonaise.</p>
+        </details>
+        <details>
+            <summary> Peut-on acheter des billets sur place ?
+                <div class="arrow"></div>
+            </summary>
+            <div class="texte">
+                <p class="page__faq-answer">Oui, mais nous vous recommandons d’acheter vos billets en ligne pour
+                    garantir votre place.</p>
+            </div>
+        </details>
+        <details>
+            <summary>Puis-je venir déguisé ?
+                <div class="arrow"></div>
+            </summary>
+            <div class="texte">
+                <p>Absolument ! Nous encourageons les visiteurs à venir en cosplay.</p>
+            </div>
+        </details>
+        <details>
+            <summary> Y aura-t-il des stands de nourriture ?
+                <div class="arrow"></div>
+            </summary>
+            <div class="texte">
+                <p class="page__faq-answer">Oui, plusieurs stands proposeront de la cuisine japonaise et internationale.
+                </p>
+            </div>
+        </details>
+    </div>
+    <details>
+        <summary>Le site est-il accessible aux personnes à mobilité réduite?
+            <div class="arrow"></div>
+        </summary>
+        <div class="texte">
+            <p class="page__faq-answer">Oui, l’Atraxion est équipé pour accueillir les personnes à mobilité réduite.</p>
+        </div>
+    </details>
+    </div>
+    <details>
+        <summary>Les animaux sont-ils acceptés ?
+            <div class="arrow"></div>
+        </summary>
+        <div class="texte">
+            <p class="page__faq-answer">Malheureusement, les animaux ne sont pas autorisés, sauf les chiens-guides.</p>
+        </div>
+    </details>
+    <details>
+        <summary>Comment puis-je participer en tant que bénévole ou exposant
+            ?
+            <div class="arrow"></div>
+        </summary>
+        <div class="texte">
+            <p class="page__faq-answer">Contactez-nous via la section "Contact" du site avec vos informations et
+                votre demande.</p>
+        </div>
+    </details>
+    </main>
+</body>
+<footer class="gradient">
+    <section class="footer_nav">
+        <h4>Navigation</h4>
+        <nav>
+            <ul>
+                <li><a href="">Festival</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Partenaires</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section>
+        <h4>Mentions légales</h4>
+        <p>Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au département MMI Montbéliard (25)
+        </p>
+    </section>
+    <section class="footer_socials">
+        <ul>
+            <li><a href=""><img src="/assets/icons/logo_mmi.svg" alt="Logo MMI"></a></li>
+            <li><a href=""><img src="/assets/icons/TIKTOK.svg" alt="Tiktok"></a></li>
+            <li><a href=""><img src="/assets/icons/Linkedin.svg" alt="Linkedin"></a></li>
+            <li><a href=""><img src="/assets/icons/FACEBOOK.svg" alt="Facebook"></a></li>
+            <li><a href=""><img src="/assets/icons/INSTAGRAM.svg" alt="Instagram"></a></li>
+            <li><a href=""><img src="/assets/icons/YOUTUBE.svg" alt="Youtube"></a></li>
         </ul>
     </section>
-    <footer class="gradient">
-        <section class="footer_nav">
-            <h4>Navigation</h4>
-            <nav>
-                <ul>
-                    <li><a href="">Festival</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Partenaires</a></li>
-                </ul>
-            </nav>
-        </section>
-        <section>
-            <h4>Mentions légales</h4>
-            <p>Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au département MMI Montbéliard (25)
-            </p>
-        </section>
-        <section class="footer_socials">
-            <ul>
-                <li><a href=""><img src="/assets/icons/logo_mmi.svg" alt="Logo MMI"></a></li>
-                <li><a href=""><img src="/assets/icons/TIKTOK.svg" alt="Tiktok"></a></li>
-                <li><a href=""><img src="/assets/icons/Linkedin.svg" alt="Linkedin"></a></li>
-                <li><a href=""><img src="/assets/icons/FACEBOOK.svg" alt="Facebook"></a></li>
-                <li><a href=""><img src="/assets/icons/INSTAGRAM.svg" alt="Instagram"></a></li>
-                <li><a href=""><img src="/assets/icons/YOUTUBE.svg" alt="Youtube"></a></li>
-            </ul>
-        </section>
-        <section>
-            <h5>Festival du films d’animation japonais animēshon</h5>
-            <img src="/assets/icons/LOGO.svg" alt="logo">
-        </section>
-    </footer>
+    <section>
+        <h5>Festival du films d’animation japonais animēshon</h5>
+        <img src="/assets/icons/LOGO.svg" alt="logo">
+    </section>
+</footer>
 </body>
 
 </html>

@@ -23,6 +23,7 @@ h1 {
   font-size: 24px;
   color: var(--green);
   text-transform: uppercase;
+  text-align: center;
   
 }
 
@@ -92,4 +93,12 @@ textarea {
   background-color: var(--primary);
   padding: 4px var(--space1x);
   font-weight: 500;
+}
+
+.page__image
+{
+  display: flex;
+ 
+  margin-top: 20px;
+ 
 }
