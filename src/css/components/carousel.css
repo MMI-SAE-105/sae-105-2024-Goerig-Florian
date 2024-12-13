@@ -16,7 +16,11 @@ https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-type
 Les margin négatifs à gauche et à droite corresponde à l'éespace entre le navigateur et le début du contenu, de sorte que le carousel soit collé au bords de l'écran.
 
 */
-
+.carousel
+{
+  margin-left: 20px;
+  margin-right: 20px;
+}
 /* Compléter la suite du code */
 .carousel__controls {
   display: flex;/* Utilise flexbox pour aligner les éléments enfants - https://developer.mozilla.org/fr/docs/Web/CSS/display */

@@ -12,3 +12,12 @@
     display: flex;
 }
 
+.mini {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+       
+}
