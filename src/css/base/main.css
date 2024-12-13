@@ -7,7 +7,7 @@
 body {
   background-color: var(--gray-white);
   font-weight: 300;
-  margin: 0;
+  margin-top: 130;
   overflow-x: hidden;
 }
 
@@ -95,10 +95,9 @@ textarea {
   font-weight: 500;
 }
 
-.page__image
-{
-  display: flex;
- 
-  margin-top: 20px;
- 
+.page__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
 }

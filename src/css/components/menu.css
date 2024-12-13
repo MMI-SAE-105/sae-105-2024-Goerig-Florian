@@ -11,6 +11,7 @@
   padding: var(--space5x) var(--space3x) var(--space3x);
   transform: translateX(100vw);
   transition: all 0.3s ease-in-out;
+  font-family: noto-sans, sans-serif;
   
 }
 
